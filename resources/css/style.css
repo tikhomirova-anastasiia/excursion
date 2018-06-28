@@ -1,15 +1,30 @@
 body {
   background-color: black;
-  font-family: Verdana
+  font-family: Verdana;
+  text-align: center;
 }
-.header {
+.header h5 {
   font-size: 50px;
   font-weight: normal;
   color: white;
-  text-align: center;
 }
-.DownloadLink{
+.header a,
+.bottom a {
   color: aquamarine;
   font-size: 16px;
-
+  font-weight: normal;
+}
+.main h5{
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+.main p{
+  color:gray;
+  font-size: 21px;
+}
+.bottom p{
+  text-align: right;
+  color: grey;
+  font-size: 21px;
 }
